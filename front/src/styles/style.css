@@ -1,0 +1,7 @@
+body {
+  background-image: url('../img/espacio.jpg');
+  background-size: 100%;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}

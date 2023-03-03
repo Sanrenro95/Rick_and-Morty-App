@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'rick';
+    src: url('../../assets/get_schwifty.ttf') format('truetype');
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    
+    border-radius: 2px;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid #94b113;
+    
+}
+
+input:focus {
+    outline: none; 
+    background-color: transparent;
+
+}
+
+.label{
+    font-family: rick ;
+    color: #42d62f;
+    font-size: 20px;
+    padding: 10px;
+    font: bold;
+}
+
+.btn{
+    margin-top: 20px;
+    font-family: rick ;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #42d62f;
+}
